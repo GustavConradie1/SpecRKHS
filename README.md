@@ -9,6 +9,9 @@ The repository contains the code for the paper [Convergent Methods for Koopman O
 </p>
 
 ---
+## Guidelines
+
+---
 
 ## 📖 Citation
 If you find this work useful in your research, please consider citing:
