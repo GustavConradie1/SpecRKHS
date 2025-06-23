@@ -9,16 +9,16 @@ The repository contains the code for the paper [Convergent Methods for Koopman O
 </p>
 
 ---
-## Guidelines
+## :memo: Guidelines
 
 ---
-## Dataset
+## :file_folder: Dataset
 
 The dataset accompanying the code is available on Zenodo at https://zenodo.org/records/15719839.
 
 ---
 
-## 📖 Citation
+## :open_book: Citation
 If you find this work useful in your research, please consider citing:
 
 ```
