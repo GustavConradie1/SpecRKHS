@@ -1,5 +1,7 @@
 # Convergent Methods for Koopman Operators on Reproducing Kernel Hilbert Spaces
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15719839.svg)](https://doi.org/10.5281/zenodo.15719839)
+
 The repository contains the code for the paper [Convergent Methods for Koopman Operators on Reproducing Kernel Hilbert Spaces](https://arxiv.org/abs/2506.15782) by Nicolas Boullé, Matthew Colbrook, and Gustav Conradie.
 
 <p align="center">
