@@ -9,7 +9,7 @@ If you find this work useful in your research, please consider citing:
 
 ```
 @article{boulle2025convergent,
-  title={Fine-Tuning Discrete Diffusion Models with Policy Gradient Methods},
+  title={Convergent Methods for Koopman Operators on Reproducing Kernel Hilbert Spaces},
   author={Boull{\'e}, Nicolas and Colbrook, Matthew J. and Conradie, Gustav},
   journal={arXiv preprint arXiv:2506.15782},
   year={2025}
