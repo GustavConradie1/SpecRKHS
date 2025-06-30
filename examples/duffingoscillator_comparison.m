@@ -5,7 +5,7 @@ clear
 
 addpath(genpath('./algorithms'))
 
-rng(0) %rng(0) nice, rng(1),2 not
+rng(0)
 
 no_kernels=6;
 
