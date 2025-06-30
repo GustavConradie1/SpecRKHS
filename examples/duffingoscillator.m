@@ -79,7 +79,7 @@ exportgraphics(gcf,'duffing_oscillator_pspec.pdf','ContentType','vector','Backgr
 
 %% define kernel
 function ker=kernel(x,t)
-    %d=2 so we use wendland kernel phi_{2,1} equivalent to H^(5/2)(R)
+    %d=2, use matern kernel with n=3
     r=vecnorm(x-t);
     r=r*6;
     ker=zeros(1,size(x,2));
