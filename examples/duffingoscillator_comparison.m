@@ -101,19 +101,19 @@ function ker=kernel_comp(x,t,num)
         %matern equiv to H^2
         r=r*(0.0003);
         ker=zeros(1,size(x,2));
-        ker(r>0)=(sigma*r(r>0)).*besselk(-1,sigma*r(r>0));
+        ker(r>0)=(r(r>0)).*besselk(-1,r(r>0));
         ker(r==0)=1;
     elseif num==5
         %matern equiv to H^3
         r=r*(0.3);
         ker=zeros(1,size(x,2));
-        ker(r>0)=(sigma*r(r>0)).^(2).*besselk(-2,sigma*r(r>0));
+        ker(r>0)=(r(r>0)).^(2).*besselk(-2,r(r>0));
         ker(r==0)=2;
     elseif num==6
         %matern equiv to H^3
         r=r*(4.1);
         ker=zeros(1,size(x,2));
-        ker(r>0)=(sigma*r(r>0)).^(3).*besselk(-3,sigma*r(r>0));
+        ker(r>0)=(r(r>0)).^(3).*besselk(-3,r(r>0));
         ker(r==0)=8;
     end
 end
