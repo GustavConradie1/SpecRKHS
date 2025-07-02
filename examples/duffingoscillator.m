@@ -83,7 +83,7 @@ function ker=kernel(x,t)
     r=vecnorm(x-t);
     r=r*6;
     ker=zeros(1,size(x,2));
-    ker(r>0)=(sigma*r(r>0)).^(2).*besselk(-2,sigma*r(r>0));
+    ker(r>0)=(r(r>0)).^(2).*besselk(-2,r(r>0));
     ker(r==0)=2;
 end
 
