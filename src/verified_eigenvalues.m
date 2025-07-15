@@ -21,6 +21,8 @@ function [Lambda_res,F_res,Lambda,F,res,res_verif,idx,W,W_res] = verified_eigenv
         res(i)=sqrt(real(g'*temp*g/(g'*g)));
         parfor_progress(pf);
     end
+    F=U*S2*F;
+    W=U*S2*W;
     if num>=1
         [~,idx]=mink(res,num);
         Lambda_res=Lambda(idx);
